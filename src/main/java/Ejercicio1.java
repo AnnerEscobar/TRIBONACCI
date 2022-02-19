@@ -24,6 +24,9 @@ public class Ejercicio1 {
        int c = 1;
        int d;
         
+       for(int i =0; i<cantidad; i++){
+           
+       }
 
         
     }
