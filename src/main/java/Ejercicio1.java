@@ -27,6 +27,7 @@ public class Ejercicio1 {
         System.out.println("INGRESE EL TAMA;O DE LA SUSECION");
         cantidad = teclado.nextInt();
         
+        System.out.println("***********************************");
        for(int i =0; i<cantidad; i++){
            System.out.println(a +" ");
            d = a + b + c;
@@ -34,7 +35,7 @@ public class Ejercicio1 {
            b = c;
            c = d;
        }
-
+        System.out.println("*************************************");
         
     }
     
