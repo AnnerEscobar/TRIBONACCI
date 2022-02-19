@@ -23,9 +23,16 @@ public class Ejercicio1 {
        int b = 0;
        int c = 1;
        int d;
+       
+        System.out.println("INGRESE EL TAMA;O DE LA SUSECION");
+        cantidad = teclado.nextInt();
         
        for(int i =0; i<cantidad; i++){
-           
+           System.out.println(a +" ");
+           d = a + b + c;
+           a = b;
+           b = c;
+           c = d;
        }
 
         
